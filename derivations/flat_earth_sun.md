@@ -17,4 +17,4 @@ With the following parameter definitions:
 <p align=center> Sun orbit centered at $(m,n)$ </p>
 <p align=center> $R$: Sun orbit radius </p>
 <p align=center> $f=1/T$, where $T=24$ hrs </p>
-<p align=center> $t$: time of day, in hrs </p>
+<p align=center> $t$: time of day, in hrs </p> 
