@@ -5,8 +5,8 @@ $$\vec{s} = x(t)\hat{i}+y(t)\hat{j}+z(t)\hat{k}$$
 
 where, 
 
-$$x(t) = m+Rcos(2\pift)$$
+$$x(t) = m+Rcos(2\pi ft)$$
 
-$$y(t) = n+Rsin(2\pift)$$
+$$y(t) = n+Rsin(2\pi ft)$$
 
 $$z(t) = h$$
