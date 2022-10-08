@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
-#plt.rcParams['text.usetex'] = True
+plt.rcParams['text.usetex'] = True
 
 # -------------- User Inputs --------------
 R=42 # radius of orbit of sun
@@ -39,15 +39,15 @@ ax.quiver(0, 0, 0, x_smin, 0, 0, arrow_length_ratio=0, linestyle='dashed')
 ax.quiver(0, 0, 0, 0, y_smin, 0, arrow_length_ratio=0, linestyle='dashed')
 
 # Plot display settings
-ax.text(x_smin/2, y_smin/2, (z_smin/2)+0.65, "S", fontsize=14, color='red')
+ax.text(x_smin/2, y_smin/2, (z_smin/2)+0.65, "$\overrightarrow{S}$", fontsize=14, color='red')
 ax.text(0.2, 0.2, z_smin/2, "h", fontsize=14, color='red')
 ax.text(x_smin+0.2, y_smin+0.2, z_smin/2, "h", fontsize=14, color='red')
 ax.text(x_smin/2, y_smin+0.2, 0, "x(t)", fontsize=14, color='red')
 ax.text(x_smin+1.4, y_smin/2, 0, "y(t)", fontsize=14, color='red')
 ax.text((x_smin/2)+1.2, y_smin/2, 0, "r", fontsize=14, color='red')
 ax.text((x_smin/2)+1.2, y_smin/2, z_smin+0.7, "r", fontsize=14, color='red')
-ax.text(1.6, 0.5, 0, "t", fontsize=14, color='red')
-ax.text(0.5, 0.5, 2, "p", fontsize=14, color='red')
+ax.text(1.6, 0.35, 0, "$\Theta$", fontsize=14, color='red')
+ax.text(0.5, 0.5, 2, "$\phi$", fontsize=14, color='red')
 ax.set_xlim([0, 10])
 ax.set_ylim([0, 10])
 ax.set_zlim([0, 10])
