@@ -5,9 +5,9 @@ $$\vec{s} = x(t)\hat{i}+y(t)\hat{j}+z(t)\hat{k}$$
 
 where, 
 
-$$x(t) = m+Rcos(2\pi ft - \frac{pi}{2})$$
+$$x(t) = m+Rcos(2\pi ft - \frac{\pi}{2})$$
 
-$$y(t) = n-Rsin(2\pi ft - \frac{pi}{2})$$
+$$y(t) = n-Rsin(2\pi ft - \frac{\pi}{2})$$
 
 $$z(t) = h$$
 
