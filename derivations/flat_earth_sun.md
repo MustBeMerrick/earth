@@ -5,6 +5,8 @@ $$\vec{s} = x(t)\hat{i}+y(t)\hat{j}+z(t)\hat{k}$$
 
 where, 
 
-$$x(t) = fill in here
-y(t) = fill in here
-z(t) = h$$
+$$x(t) = fill in here$$
+
+$$y(t) = fill in here$$
+
+$$z(t) = h$$
