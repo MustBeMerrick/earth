@@ -14,10 +14,10 @@ $$z(t) = h$$
 
 With the following parameter definitions:
 
-<center>Sun orbit centered at $(m,n)$</center>
+<p style="text-align:center"> Sun orbit centered at $(m,n)$ </p>
 
-<center>$R$: Sun orbit radius</center>
+<p style="text-align:center"> $R$: Sun orbit radius </p>
 
-<center>$f=1/T$, where T=24 hrs</center>
+<p style="text-align:center"> $f=1/T$, where T=24 hrs </p>
 
-<center>$t$: time of day, in hrs</center>
+<p style="text-align:center"> $t$: time of day, in hrs </p>
