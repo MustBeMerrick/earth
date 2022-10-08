@@ -10,3 +10,14 @@ $$x(t) = m+Rcos(2\pi ft)$$
 $$y(t) = n+Rsin(2\pi ft)$$
 
 $$z(t) = h$$
+
+
+With the following parameter definitions:
+
+$$Sun orbit centered at (m,n)$$
+
+$$R: Sun orbit radius$$
+
+$$f=1/T, where T=24 hrs$$
+
+$$t: time of day, in hrs$$
