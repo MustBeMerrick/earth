@@ -1,7 +1,3 @@
-$\sqrt{3x-1}+(1+x)^2$
+We begin by defining the variables as seen in figure 1
 
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
-$$x = \sqrt{4}$$
-
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+Where the sun is orbiting in a plane parallel to the x-y plane, at some height, $h$, above the ground, with orbital radius, $R$.
