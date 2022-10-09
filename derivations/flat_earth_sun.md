@@ -5,9 +5,9 @@ $$\vec{s} = x(t)\hat{i}+y(t)\hat{j}+z(t)\hat{k}$$
 
 where, 
 
-$$x(t) = m+Rcos(2\pi ft - \frac{\pi}{2})$$
+$$x(t) = m+R\cos(2\pi ft - \frac{\pi}{2})$$
 
-$$y(t) = n-Rsin(2\pi ft - \frac{\pi}{2})$$
+$$y(t) = n-R\sin(2\pi ft - \frac{\pi}{2})$$
 
 $$z(t) = h$$
 
@@ -28,23 +28,23 @@ Note that the phase shifting of $sin$ and $cos$ in the $x(t)$ and $y(t)$ compone
 
 The math can be simplified a bit by choosing a coordinate system such that the center of the sun's orbit (directly due north) lies on the y-axis itself, resulting in no x-offset $(m=0)$. The vector-valued position of the sun thus becomes
 
-$$x(t) = Rcos(2\pi ft - \frac{\pi}{2})$$
+$$x(t) = R\cos(2\pi ft - \frac{\pi}{2})$$
 
-$$y(t) = n-Rsin(2\pi ft - \frac{\pi}{2})$$
+$$y(t) = n-R\sin(2\pi ft - \frac{\pi}{2})$$
 
 $$z(t) = h$$
 
 The x-y component, $\vec{r}$, is given by just the x and y components of $\vec{s}$. The magnitude of r can be computed using the L2 norm, and is given by
 
-$$\| \vec{r} \| = \sqrt{R^2+n^2-2Rnsin(2\pi ft - \frac{\pi}{2})}$$ 
+$$\| \vec{r} \| = \sqrt{R^2+n^2-2nR\sin(2\pi ft - \frac{\pi}{2})}$$ 
 
 From figure 1, a relationship between $\phi$ and $\| \vec{r} \|$ is given by
 
-$$tan(\phi) = \frac{\| \vec{r} \|}{h} = \frac{\sqrt{R^2+n^2-2Rnsin(2\pi ft - \frac{\pi}{2})}}{h}$$
+$$tan(\phi) = \frac{\| \vec{r} \|}{h} = \frac{\sqrt{R^2+n^2-2nR\sin(2\pi ft - \frac{\pi}{2})}}{h}$$
 
 And ultimately solving for $\phi$ yields
 
-$$\phi = tan^{-1}\left[\frac{\sqrt{R^2+n^2-2Rnsin(2\pi ft - \frac{\pi}{2})}}{h}\right]$$
+$$\phi = tan^{-1}\left[\frac{\sqrt{R^2+n^2-2nR\sin(2\pi ft - \frac{\pi}{2})}}{h}\right]$$
 
 We've now defined $\phi$, the angle between the sun and the vertical axis, with respect to the observer, as a function of $t$ (where $R$, $n$, $h$, and $f$ are constant).
 
