@@ -37,4 +37,14 @@ The x-y component, $\vec{r}$, is given by just the x and y components of $\vec{s
 
 $$\| \vec{r} \| = \sqrt{R^2+n^2-2Rnsin(2\pi ft - \frac{\pi}{2})}$$ 
 
+From figure 1, a relationship between $\phi$ and $\| \vec{r} \|$ is given by
+
+$$tan(\phi) = \frac{\| \vec{r} \|}{h} = \frac{\sqrt{R^2+n^2-2Rnsin(2\pi ft - \frac{\pi}{2})}}{h}$$
+
+And ultimately solving for $\phi$ yields
+
+$$\phi = tan^{-1}\left[\frac{\sqrt{R^2+n^2-2Rnsin(2\pi ft - \frac{\pi}{2})}}{h}\right]$$
+
+We've now defined $\phi$, the angle between the sun and the vertical axis, with respect to the observer, as a function of $t$ (where $R$, $n$, $h$, and $f$ are constant).
+
 
