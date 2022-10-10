@@ -1,15 +1,15 @@
 We begin by defining the variables as seen in figure 1. 
 We assume the sun is orbiting in a plane parallel to the x-y plane, at some height, $h$, above the ground, with orbital radius, $R$. We place the origin of our coordinate system at the observer, yielding the following vector-valued parameterized position of the sun as a function of $t$
 
-$$\vec{s} = x(t)\hat{i}+y(t)\hat{j}+z(t)\hat{k}$$
+\begin{equation}\vec{s} = x(t)\hat{i}+y(t)\hat{j}+z(t)\hat{k}\end{equation}
 
 where, 
 
-$$x(t) = m+R\cos(2\pi ft - \frac{\pi}{2})$$
+\begin{equation}x(t) = m+R\cos(2\pi ft - \frac{\pi}{2})\end{equation}
 
-$$y(t) = n-R\sin(2\pi ft - \frac{\pi}{2})$$
+\begin{equation}y(t) = n-R\sin(2\pi ft - \frac{\pi}{2})\end{equation}
 
-$$z(t) = h$$
+\begin{equation}z(t) = h\end{equation}
 
 
 With the following parameter definitions:
@@ -28,23 +28,23 @@ Note that the phase shifting of $sin$ and $cos$ in the $x(t)$ and $y(t)$ compone
 
 The math can be simplified a bit by choosing a coordinate system such that the center of the sun's orbit (directly due north) lies on the y-axis itself, resulting in no x-offset $(m=0)$. The vector-valued position of the sun thus becomes
 
-$$x(t) = R\cos(2\pi ft - \frac{\pi}{2})$$
+\begin{equation}x(t) = R\cos(2\pi ft - \frac{\pi}{2})\end{equation}
 
-$$y(t) = n-R\sin(2\pi ft - \frac{\pi}{2})$$
+\begin{equation}y(t) = n-R\sin(2\pi ft - \frac{\pi}{2})\end{equation}
 
-$$z(t) = h$$
+\begin{equation}z(t) = h\end{equation}
 
 The x-y component, $\vec{r}$, is given by just the x and y components of $\vec{s}$. The magnitude of r can be computed using the L2 norm, and is given by
 
-$$\| \vec{r} \| = \sqrt{R^2+n^2-2nR\sin(2\pi ft - \frac{\pi}{2})}$$ 
+\begin{equation}\| \vec{r} \| = \sqrt{R^2+n^2-2nR\sin(2\pi ft - \frac{\pi}{2})}\end{equation}
 
 From figure 1, a relationship between $\phi$ and $\| \vec{r} \|$ is given by
 
-$$tan(\phi) = \frac{\| \vec{r} \|}{h} = \frac{\sqrt{R^2+n^2-2nR\sin(2\pi ft - \frac{\pi}{2})}}{h}$$
+\begin{equation}tan(\phi) = \frac{\| \vec{r} \|}{h} = \frac{\sqrt{R^2+n^2-2nR\sin(2\pi ft - \frac{\pi}{2})}}{h}\end{equation}
 
 And ultimately solving for $\phi$ yields
 
-$$\phi = tan^{-1}\left[\frac{\sqrt{R^2+n^2-2nR\sin(2\pi ft - \frac{\pi}{2})}}{h}\right]$$
+\begin{equation}\phi = tan^{-1}\left[\frac{\sqrt{R^2+n^2-2nR\sin(2\pi ft - \frac{\pi}{2})}}{h}\right]\end{equation}
 
 We've now defined $\phi$, the angle between the sun and the vertical axis, with respect to the observer, as a function of $t$ (where $R$, $n$, $h$, and $f$ are constant).
 
